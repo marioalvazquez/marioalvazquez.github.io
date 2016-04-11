@@ -122,7 +122,12 @@ div.head-title-marketing{
   text-transform: uppercase;
   font-weight: 900;
 }
-
+img.head-img-fixed{
+  width: 10rem;
+  position: absolute;
+  top: 90%;
+  right: 0;
+}
 a.head-title-button{
   color: #FBFBFB;
   background: #ED213C;
