@@ -143,6 +143,10 @@ a.head-title-button:hover{
 /** INICIO HEAD */
 /** fin HEAD */
 /** Contenido */
+div.container{
+  margin: 0 auto;
+  width: 90%;
+}
 section.section-about{
   margin: 1rem 0;
 }
@@ -163,12 +167,42 @@ p.green-space{
   font-weight: bold;
 }
 /** FIN CONTENIDO */
+
+/** CONTACTO */
+div.contact{
+  text-align: center;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+}
+.inputform{
+  letter-spacing: 2px;
+  color: #FBFBFB;
+  border: none;
+  background: #209345;
+  height: 2rem;
+  outline: none;
+  border: 1px solid #FBFBFB;
+  padding: .5rem 1rem;
+}
+.inputButton{
+  outline: none;
+  background: #209345;
+  color: #FBFBFB;
+  border: none;
+  cursor: pointer;
+  padding: .3rem .6rem;
+  border: 1px solid #FBFBFB;
+}
+/** FIN CONTACTO */
 /** FOOTER */
 footer.footer{
 
 }
 .spacer{
   margin: 1rem 0;
+}
+.spacerHalf{
+  margin: .5rem 0;
 }
 div.footer-first{
   height: 1rem;
