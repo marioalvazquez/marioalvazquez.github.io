@@ -1,0 +1,135 @@
+/**
+  verde : #209345;
+  rojo: #ED213C;
+  blanco: #FBFBFB;
+
+ */
+
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6,p,a,div,section,nav,ul,ol,li,header,footer,video{
+  margin: 0;
+  padding: 0;
+}
+/** INICIO HEADER */
+header.header{
+  height: 4rem;
+  background: #FBFBFB;
+  box-shadow: 0 0 2px 0;
+  color: #555555;
+  line-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+img.header-logo-img{
+  width: 5.5rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+div.header-menu-container{
+  margin: 1rem 1rem 1rem 0;
+  cursor: pointer;
+}
+div.header-menu-container-line{
+  width: 2rem;
+  height: 0.1875rem;
+  background: #ED213C;
+  border-radius: 0.125rem;
+  margin: 0.625rem 0;
+}
+
+/** fin HEADER */
+div.head{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: 50% 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.head-title{
+  text-align: left;
+  margin-left: 1rem;
+}
+div.head-title-services{
+  letter-spacing: 0.1875rem;
+  font-size: 1rem;
+  color: #FBFBFB;
+}
+div.head-title-marketing{
+  letter-spacing: 0.1875rem;
+  color: #209345;
+  margin: 1rem 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a.head-title-button{
+  color: #FBFBFB;
+  background: #ED213C;
+  text-decoration: none;
+  padding: .7rem .4rem;
+  border: 1px solid #FBFBFB;
+  transition: .3s all ease-in-out;
+}
+a.head-title-button:hover{
+  background: #FBFBFB;
+  color: #ED213C;
+}
+/** INICIO HEAD */
+/** fin HEAD */
+/** Contenido */
+section.section-about{
+  margin: 1rem 0;
+}
+h1.title-h1{
+  text-align: center;
+  margin: 1rem 0;
+}
+span.green{
+  color: #209345;
+}
+p.section-about-p{
+  text-align: center;
+}
+p.green-space{
+  text-align: center;
+  margin: 1rem 0;
+  color: #209345;
+  font-weight: bold;
+}
+/** FIN CONTENIDO */
+/** FOOTER */
+footer.footer{
+
+}
+.spacer{
+  margin: 1rem 0;
+}
+div.footer-first{
+  height: 1rem;
+  background: #ED213C;
+}
+div.footer-social{
+  color: #FBFBFB;
+}
+div.footer-second{
+  background: #209345;
+  text-align: center;
+  overflow: auto;
+}
+img.footer-logo-img{
+  width: 5rem;
+  color: #555555;
+  border-bottom: .25rem solid rgba(255,255,255,0.2);
+  padding-bottom: .2rem;
+}
+/** END FOOTER*/
