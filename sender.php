@@ -1,6 +1,6 @@
 <?
 // Configuration
-$adminemail="marioal.vazquez@gmail.com";  // your e-mail
+$adminemail="hola@juliaolguin.com";  // your e-mail
 
 $date=date("d.m.y"); // date format: day.month.year
 $time=date("H:i"); // time format: hour.minute
