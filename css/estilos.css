@@ -9,6 +9,9 @@ html{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
+audio{
+  display: none;
+}
 h1,h2,h3,h4,h5,h6,p,a,div,section,nav,ul,ol,li,header,footer,video{
   margin: 0;
   padding: 0;
@@ -256,3 +259,17 @@ img.footer-logo-img{
   padding-bottom: .2rem;
 }
 /** END FOOTER*/
+
+
+
+/** INICIO MEDIA QUERy */
+@media (min-width: 600px) {
+  .propuestas-columna {
+    display: flex;
+  }
+  div.propuestas-contain{
+    width: 50%;
+    margin: .5rem 1rem;
+  }
+}
+/** FIN MEDIA QUERY */
