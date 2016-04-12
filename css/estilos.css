@@ -51,7 +51,6 @@ div.header-menu-container-line{
 .noStyle{
   text-decoration: none;
   color: #FBFBFB;
-  transition: 1s all ease-in;
 }
 .hoverTop{
   display: none;
@@ -227,6 +226,16 @@ div.vider{
 }
 
 /** fin video */
+
+/** social */
+.social{
+  background: #ED213C;
+}
+.social-container{
+  text-align: center;
+}
+/** fin social */
+
 
 /** CONTACTO */
 div.contact{
