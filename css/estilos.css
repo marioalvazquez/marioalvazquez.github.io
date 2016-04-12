@@ -94,6 +94,9 @@ li.menu-list{
   transition: .5s all ease-in;
   font-size: 1rem;
 }
+ul.menulist{
+  margin-top: 3rem;
+}
 li.menu-list:hover{
   background: rgba(255, 251, 251, 0.5);
   cursor: pointer;
@@ -230,9 +233,41 @@ div.vider{
 /** social */
 .social{
   background: #ED213C;
+  position: relative;
+  overflow: hidden;
 }
 .social-container{
   text-align: center;
+}
+.selector-social{
+  text-align: center;
+}
+.social-btn{
+  background: rgba(255,255,255,0.2);
+  color: #FBFBFB;
+  width: 10rem;
+  cursor: pointer;
+  outline: none;
+  margin: .5rem 0;
+  border: 1px solid #FBFBFB;
+  letter-spacing: 3px;
+  transition: 1s all ease;
+}
+.gone{
+  display: none;
+}
+.social-btn:hover{
+  background: #FBFBFB;
+  color: #555555;
+}
+.fb-frame{
+}
+.fb{
+  color: rgba(0,0,0,0.5);
+  font-size: 10rem;
+  bottom: -2rem;
+  left: -3rem;
+  position: absolute;
 }
 /** fin social */
 
