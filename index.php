@@ -63,7 +63,7 @@
           <p class="section-about-p">
             Cada zacatecano hombre o mujer, niño o niña, abuelito o abuelita, de cuidad o del campo,
             merece tener las oportunidades de salir adelante, de cumplir sus sueños, de alcanzar
-            sus metas, de evivir una vida plena, donde el objetivo de vida sea vivir,
+            sus metas, de vivir una vida plena, donde el objetivo de vida sea vivir,
             no sobrevivir.
           </p>
           <h2 class="title">¡Siempre me he sentido orgullosa de mi <span class="green">gente!</span></h2>
