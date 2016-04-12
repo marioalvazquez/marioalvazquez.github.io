@@ -351,4 +351,20 @@ img.footer-logo-img{
     margin: .5rem 1rem;
   }
 }
+
+@media (min-width: 768px){
+  .social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .goFlex{
+    width: 30%;
+  }
+  iframe{
+    width: 100%;
+  }
+
+}
+
 /** FIN MEDIA QUERY */

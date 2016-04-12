@@ -91,7 +91,7 @@
         </div>
         <div class="propuestas-columna">
           <div class="propuestas-contain">
-            <span class="icon-iconos-pg-01 icon"></span>
+            <span class="icon-social icon"></span>
             <h3 class="title">Ayuda Social</h3>
             <p class="propuestas-text">
               Garantizaré que el dinero de tus impuestos sea destinado a obras
@@ -172,17 +172,18 @@
         <button type="button" name="button" class="social-btn" id="videos-btn">Videos</button>
         <button type="button" name="button" class="social-btn" id="posts-btn">Posts</button>
       </div>
-      <div class="social-container" id="fb-videos">
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1079036468824187%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1078768835517617%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1077835122277655%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <div class="social-container" id="fb-videos">
+          <div class="goFlex"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1079036468824187%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+          <div class="goFlex"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1078768835517617%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+          <div class="goFlex"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fvideos%2F1077835122277655%2F&width=300&show_text=true&appId=1457445357800221&height=286" width="300" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+        </div>
         <div class="social-container" id="fb-posts">
-        <iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1079202555474245%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=549" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1078331348894699%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=599" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1078328902228277%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=599" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <div class="goFlex"><iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1079202555474245%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=549" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+          <div class="goFlex"><iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1078331348894699%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=599" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+          <div class="goFlex"><iframe class="fb-frame" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2Fphotos%2Fa.1072522132808954.1073741828.1072179716176529%2F1078328902228277%2F%3Ftype%3D3%26theater&width=300&show_text=true&appId=1457445357800221&height=599" width="300" height="599" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
         </div>
         <div class="social-container">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2F&width=300&layout=standard&action=like&show_faces=true&share=true&height=80&appId=1457445357800221" width="300" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <div class="goFlex"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FDiputadaJuliaOlguin%2F&width=300&layout=standard&action=like&show_faces=true&share=true&height=80&appId=1457445357800221" width="300" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
         </div>
       </div>
     </div>
@@ -199,14 +200,14 @@
     <div class="contact">
       <div class="contact-fixed">
       <h2 class="title">¡Quiero <span class="white">escucharte!</span></h1>
-      <form class="contact-form" action="index.html" method="post">
+      <form class="contact-form" action="sender.php" method="post">
         <div class="contact-form-1">
           <input type="text" class="spacerHalf inputform" name="Nombre" placeholder="Nombre">
           <input type="text" class="spacerHalf inputform" name="Correo" placeholder="Correo Electrònico">
         </div>
         <div class="contact-form-2">
           <input type="text" class="spacerHalf inputform" name="Propuesta" placeholder="Propuesta/Asunto">
-          <input type="text" class="spacerHalf inputform" name="telefono" placeholder="Telèfono">
+          <input type="text" class="spacerHalf inputform" name="Telefono" placeholder="Telèfono">
         </div>
         <div class="contact-form-3">
           <textarea name="Mensaje" class="spacerHalf inputform" placeholder="Mensaje"></textarea>
