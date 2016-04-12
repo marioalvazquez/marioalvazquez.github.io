@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no"/>
-    <link rel="stylesheet" href="fonts/icomoon/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="fonts/Icomoon/style.css" media="screen" title="no title" charset="utf-8">
 
     <link rel="stylesheet" href="css/normal.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/estilos.css" media="screen" title="no title" charset="utf-8">
@@ -190,7 +190,7 @@
     <div class="video">
       <h2 class="title" id="cercaDeTi">Estoy cerca de ti</h2>
     <div class="video-container">
-      <video autoplay="false" poster="posterimage.jpg" controls="true">
+      <video poster="posterimage.jpg" controls="true">
         <source src="media/Julia_Olguin_6.mp4" type="video/mp4">
         <source src="media/Julia_Olguin_6.webm" type="video/webm">
       </video>
