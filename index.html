@@ -32,9 +32,9 @@
     </div>
     <div id="header-menu-open" class="header-menu-open active">
         <ul>
-          <li class="menu-list">Mi Historia</li>
-          <li class="menu-list">Mi Propuesta</li>
-          <li class="menu-list">Estoy Cerca de ti</li>
+          <a href="#about" class="noStyle"><li class="menu-list">Mi Historia</li></a>
+          <a href="#propuestas" class="noStyle"><li class="menu-list">Mi Propuesta</li></a>
+          <a href="#cercaDeTi" class="noStyle"><li class="menu-list">Estoy Cerca de ti</li></a>
         </ul>
       </div>
   </header>
@@ -52,7 +52,7 @@
       <img src="img/fixed.png" alt="" class="head-img-fixed">
     </div>
     <div class="container">
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="container-title">
           <h2 class="title">Estas son mis <span class="green">raíces</span></h1>
           <p class="section-about-p">
@@ -69,7 +69,7 @@
           <h2 class="title">¡Siempre me he sentido orgullosa de mi <span class="green">gente!</span></h2>
         </div>
       </section>
-      <section class="propuestas">
+      <section class="propuestas" id="propuestas">
         <h2 class="title">Mis Propuestas</h2>
         <div class="propuestas-columna">
           <div class="propuestas-contain">
@@ -164,6 +164,16 @@
           </div>
       </section>
     </div>
+    <div class="video">
+      <h2 class="title" id="cercaDeTi">Estoy cerca de ti</h2>
+    <div class="video-container">
+      <video autoplay="true" poster="posterimage.jpg">
+        <source src="media/Julia_Olguin_6.mp4" type="video/mp4">
+        <source src="media/Julia_Olguin_6.webm" type="video/webm">
+      </video>
+    </div>
+    </div>
+
     <div class="contact">
       <div class="contact-fixed">
       <h2 class="title">¡Quiero <span class="white">escucharte!</span></h1>
@@ -171,13 +181,15 @@
         <div class="contact-form-1">
           <input type="text" class="spacerHalf inputform" name="Nombre" placeholder="Nombre">
           <input type="text" class="spacerHalf inputform" name="Correo" placeholder="Correo Electrònico">
-          <input type="text" class="spacerHalf inputform" name="telefono" placeholder="Telèfono">
         </div>
         <div class="contact-form-2">
           <input type="text" class="spacerHalf inputform" name="Propuesta" placeholder="Propuesta/Asunto">
-          <textarea name="Mensaje" class="spacerHalf inputform" placeholder="Mensaje"></textarea>
+          <input type="text" class="spacerHalf inputform" name="telefono" placeholder="Telèfono">
         </div>
         <div class="contact-form-3">
+          <textarea name="Mensaje" class="spacerHalf inputform" placeholder="Mensaje"></textarea>
+        </div>
+        <div class="contact-form-4">
           <button type="submit" name="Enviar" class="spacerHalf inputButton">Enviar</button>
         </div>
       </form>
@@ -188,10 +200,10 @@
       <div class="footer-second">
         <div class="footer-social">
           <div class="footer-social-fb spacer">
-            facebook.com/DiputadaJuliaOlguin
+            <span class="icon-facebook"></span>/DiputadaJuliaOlguin
           </div>
           <div class="footer-social-mail spacer">
-            hola@juliaolguin.com
+            <span class="icon-envelop"></span> hola@juliaolguin.com
           </div>
         </div>
         <div class="footer-logo spacer">

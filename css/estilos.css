@@ -48,7 +48,11 @@ div.header-menu-container-line{
   margin: 0.625rem 0;
   transition: .5s all ease-in;
 }
-
+.noStyle{
+  text-decoration: none;
+  color: #FBFBFB;
+  transition: 1s all ease-in;
+}
 .hoverTop{
   display: none;
 }
@@ -68,8 +72,8 @@ div.header-menu-open{
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: left;
+  justify-content: flex-start;
+  text-align: right;
   background: rgba(32, 167, 19, 0.8);
   font-size: 1.5rem;
   letter-spacing: 2px;
@@ -84,8 +88,8 @@ ul{
   list-style: none;
 }
 li.menu-list{
-  width: 240px;
-  margin: 2rem auto;
+  width: 100%;
+  margin: 0;
   border-top: 1px solid #FBFBFB;
   border-bottom: 1px solid #FBFBFB;
   transition: .5s all ease-in;
@@ -197,6 +201,32 @@ p.propuestas-text{
 }
 /** FIN Propuestas */
 
+/** video */
+div.vider{
+  overflow: auto;
+  padding: 3rem;
+  background:#ED213C;
+}
+.video-container{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  z-index: -1;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video{
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/** fin video */
 
 /** CONTACTO */
 div.contact{
