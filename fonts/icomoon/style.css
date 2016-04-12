@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('../../fonts/icomoon.eot?t3q4w2');
-    src:    url('../../fonts/icomoon.eot?t3q4w2#iefix') format('embedded-opentype'),
-        url('../../fonts/icomoon.ttf?t3q4w2') format('truetype'),
-        url('../../fonts/icomoon.woff?t3q4w2') format('woff'),
-        url('../../fonts/icomoon.svg?t3q4w2#icomoon') format('svg');
+    src:    url('../../fonts/icomoon.eot?qzc67y');
+    src:    url('../../fonts/icomoon.eot?qzc67y#iefix') format('embedded-opentype'),
+        url('../../fonts/icomoon.ttf?qzc67y') format('truetype'),
+        url('../../fonts/icomoon.woff?qzc67y') format('woff'),
+        url('../../fonts/icomoon.svg?qzc67y#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,36 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-tolerancia:before {
+    content: "\e911";
+}
+.icon-apoyo:before {
+    content: "\e912";
+}
+.icon-becas:before {
+    content: "\e913";
+}
+.icon-cercana:before {
+    content: "\e914";
+}
+.icon-corredor:before {
+    content: "\e915";
+}
+.icon-desarrollo:before {
+    content: "\e916";
+}
+.icon-amibiental:before {
+    content: "\e917";
+}
+.icon-financiamiento:before {
+    content: "\e918";
+}
+.icon-iconos-pg-01:before {
+    content: "\e919";
+}
+.icon-madres:before {
+    content: "\e91a";
+}
 .icon-home:before {
     content: "\e900";
 }
@@ -75,3 +105,4 @@
 .icon-facebook:before {
     content: "\e910";
 }
+

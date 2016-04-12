@@ -185,7 +185,12 @@ div.propuestas-contain{
 }
 .icon{
   margin: 1rem 0;
-  font-size: 3rem;
+  font-size: 5rem;
+  transition: .5s all ease-in;
+}
+.icon:hover{
+  font-size: 6rem;
+  color: #2CC35D;
 }
 p.propuestas-text{
   padding: 1rem;
